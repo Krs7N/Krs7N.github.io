@@ -21,6 +21,11 @@ window.onscroll = () => {
                 link.classList.remove('active');
                 document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
             });
+
+            sec.classList.add('show-animate');
+        }
+        else {
+            sec.classList.remove('show-animate');
         }
     });
 
@@ -30,4 +35,8 @@ window.onscroll = () => {
 
     menuIcon.classList.remove('bx-x');
     navBar.classList.remove('active');
+
+    let footer = document.querySelector('footer');
+
+    footer.classList.toggle('show-animate', this.innerHeight + window.scrollY >= document.scrollingElement.scrollHeight - 10);
 }
