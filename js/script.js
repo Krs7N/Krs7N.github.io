@@ -20,14 +20,6 @@ window.onscroll = () => {
             offset = sec.offsetTop - 650;
         }
 
-        if (offset > top && offset - top <= 300) {
-            offset -= 300;
-        }
-
-        if (offset < 0) {
-            offset = top - 100;
-        }
-
         if (top >= offset && top < offset + height) {
             navLinks.forEach(link => {
                 link.classList.remove('active');
@@ -35,7 +27,7 @@ window.onscroll = () => {
             });
 
             sec.classList.add('show-animate');
-        }
+        } 
         else {
             sec.classList.remove('show-animate');
         }
