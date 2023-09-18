@@ -17,7 +17,15 @@ window.onscroll = () => {
         let id = sec.getAttribute('id');
 
         if (id === 'contact') {
-            offset = sec.offsetTop - 300;
+            offset = sec.offsetTop - 650;
+        }
+
+        if (offset > top || offset - top <= 300) {
+            offset -= 300;
+        }
+
+        if (offset < 0) {
+            offset = top - 100;
         }
 
         if (top >= offset && top < offset + height) {

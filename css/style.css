@@ -761,6 +761,17 @@ section:nth-child(odd) .animate.scroll,
 }
 
 @media (max-width: 1200px) {
+    .home-imgHover {
+        pointer-events: none;
+        background: var(--bg-color);
+        width: 100%;
+        opacity: .7;
+    }
+
+    .animate.home-img {
+        width: 45%;
+    }
+
     html {
         font-size: 55%;
     }
@@ -835,6 +846,10 @@ section:nth-child(odd) .animate.scroll,
         left: 0;
     }
 
+    .animate.home-img {
+        width: 60%;
+    }
+
     .navbar a {
         display: block;
         font-size: 2rem;
@@ -878,6 +893,24 @@ section:nth-child(odd) .animate.scroll,
 }
 
 @media (max-width: 462px) {
+    html, body {
+        width: 125%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .animate.home-img {
+        display: none;
+    }
+
+    .home-imgHover {
+        display: none;
+    }
+
+    .home-sci {
+        max-width: 35%;
+    }
+
     .home-content h1 {
         font-size: 5.2rem;
     }
@@ -904,7 +937,17 @@ section:nth-child(odd) .animate.scroll,
     }
 }
 
-@media (max-width: 371px) {
+@media (max-width: 375px) {
+    html, body {
+        width: 137%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .home-sci {
+        max-width: 45%;
+    }
+
     .home {
         justify-content: center;
     }
