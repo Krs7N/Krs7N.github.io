@@ -20,7 +20,7 @@ window.onscroll = () => {
             offset = sec.offsetTop - 650;
         }
 
-        if (offset > top || offset - top <= 300) {
+        if (offset > top && offset - top <= 300) {
             offset -= 300;
         }
 
