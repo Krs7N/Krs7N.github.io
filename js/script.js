@@ -16,6 +16,10 @@ window.onscroll = () => {
         let height = sec.offsetHeight;
         let id = sec.getAttribute('id');
 
+        if (id === 'contact') {
+            offset = sec.offsetTop - 300;
+        }
+
         if (top >= offset && top < offset + height) {
             navLinks.forEach(link => {
                 link.classList.remove('active');
