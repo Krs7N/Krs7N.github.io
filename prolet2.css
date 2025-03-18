@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+body {
+	background:#b5f7ba;
+	font-size:22.5px;
+font-family: "Marck Script", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align:center;
+ 
+}
+
+header {
+	background:url("ddd.png");
+	padding:30px 15px 30px 15px;
+	margin:0px 50px 15px 50px;
+	border-radius:8%;
+	max-width:90%;
+	margin:auto;
+	
+	
+}
+#mart {
+	background-image:url("8m.jpg");
+	
+}
+
+#prolet {
+	background-image:url("ptica.jpg")
+}
+
+h1 {
+	color:#2aa35a;
+	text-align:center;
+	text-shadow:3px 3px #ebedec;
+	font-size:65px;
+	
+	
+}
+h2 {
+	color:#2aa35a;
+	text-align:center;
+	text-shadow:3px 3px #ebedec;
+	font-size:45px;
+}
+p{
+	color:white;
+	
+}
+img	{
+	width:320px;
+	height:220px;
+	margin:1px;
+	padding-left:100px;
+	
+	
+}
+
+section {
+	max-width:90%;
+	margin:auto;
+}
+
+section article	{
+	
+	padding:30px 5px 10px 5px;
+	margin:0 0 15px 50px;
+	background:#607766;
+	border:5px solid #63bf8a;
+	border-radius:10%;
+
+	
+}
+footer {
+	max-width:90%;
+	margin:auto;
+}
+
+footer p	{
+	background:none;
+	float:right;
+}
+nav ul li{
+	display:inline-block;
+	padding-left:20px;
+	 font-family: "Rubik Spray Paint", system-ui;
+  font-weight: 400;
+  font-style: normal;
+		
+}
+ul {
+	text-align:center;
+
+}
+a {
+	text-decoration:none;
+}
+a:link {
+	color:#1e7540;
+}
+a:visited {
+	color:green;
+}
+a:hover {
+	color:#6e9c6a;
+}
+button {
+	border:3px solid #63bf8a;
+	width:20%;
+	height:30px;
+	background:#eefcdf;
+	font-size:18px;
+	font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  border-radius:12%;
+  max-width:90%;
+	margin-left:700px;
+}
+button:hover {
+	color:#6e9c6a;
+}
+
+ #purv {
+	 display:flex;
+	 text-align:center;
+	 
+ }
+ #purv article {
+	 width:40%;
+	 display:inline-block;
+	 text-align:center;
+	 margin-left:45px;
+	 border-radius:10%;
+	  font-size:25px;
+ }
+ #purv img {
+	 width:320px;
+	height:220px;
+	margin:1px;
+	padding:23px 2px 23px 2px;
+	border-radius: 18%;
+ }
